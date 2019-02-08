@@ -16,5 +16,23 @@ public class Department {
 
     private Set<Department> child = new HashSet<>();
 
+    public int getId() {
+        return id;
+    }
 
+    public int getParent() {
+        return parent;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Set<Department> getChild() {
+        return child;
+    }
+
+    public void setChild(Set<Department> child) {
+        this.child = child;
+    }
 }
